@@ -1,0 +1,22 @@
+﻿<Window x:Class="Mokup2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mokup2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Number Generator" HorizontalAlignment="Left" Height="38" Margin="34,10,0,0" VerticalAlignment="Top" Width="227" FontSize="24" FontWeight="Bold"/>
+        <CheckBox Content="Enabled" HorizontalAlignment="Left" Height="38" Margin="349,10,0,0" VerticalAlignment="Top" Width="118" FontWeight="Bold" FontSize="24" Checked="CheckBox_Checked"/>
+        <TextBox   IsEnabled="False" x:Name="txtNum1" HorizontalAlignment="Left" Height="34" Margin="34,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="74"/>
+        <TextBox  IsEnabled="False" x:Name="txtNum2" HorizontalAlignment="Left" Height="33" Margin="34,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="74" TextChanged="txtNum2_TextChanged"/>
+        <Slider IsEnabled="False" x:Name="txtslider1" HorizontalAlignment="Left" Height="34" Margin="173,99,0,0" VerticalAlignment="Top" Width="210" FontWeight="Bold" FontSize="24"  Maximum="100" TickFrequency="1" TickPlacement="BottomRight" ValueChanged="txtslider1_ValueChanged"/>
+        <Slider x:Name="txtslider2" IsEnabled="False" HorizontalAlignment="Left" Height="34" Margin="173,211,0,0" VerticalAlignment="Top" Width="210" FontWeight="Bold" FontSize="24" Maximum="100" TickFrequency="1" TickPlacement="BottomRight" ValueChanged="txtslider2_ValueChanged"/>
+        <Label Content="Sum:" HorizontalAlignment="Left" Height="44" Margin="34,303,0,0" VerticalAlignment="Top" Width="74" FontWeight="Bold" FontSize="24"/>
+        <Label Content="Num1" HorizontalAlignment="Left" Height="41" Margin="34,53,0,0" VerticalAlignment="Top" Width="91" FontWeight="Bold" FontSize="24"/>
+        <Label Content="num2" HorizontalAlignment="Left" Height="46" Margin="34,161,0,0" VerticalAlignment="Top" Width="74" FontWeight="Bold" FontSize="24"/>
+        <TextBox x:Name="txtSum" HorizontalAlignment="Left" Height="30" Margin="173,317,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="210" TextChanged="txtSum_TextChanged"/>
+
+    </Grid>
+</Window>
