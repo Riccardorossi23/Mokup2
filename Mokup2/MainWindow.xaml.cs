@@ -61,6 +61,7 @@ namespace Mokup2
         private void txtNum2_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+
         }
 
         private void txtslider1_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)

@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mokup2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="500">
+    <Grid Margin="0,0,2,0">
         <Label Content="Number Generator" HorizontalAlignment="Left" Height="38" Margin="34,10,0,0" VerticalAlignment="Top" Width="227" FontSize="24" FontWeight="Bold"/>
         <CheckBox Content="Enabled" HorizontalAlignment="Left" Height="38" Margin="349,10,0,0" VerticalAlignment="Top" Width="118" FontWeight="Bold" FontSize="24" Checked="CheckBox_Checked"/>
         <TextBox   IsEnabled="False" x:Name="txtNum1" HorizontalAlignment="Left" Height="34" Margin="34,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="74"/>
